@@ -1,9 +1,9 @@
-Verifique o servidor de produ‹o
-b‡sico
-Antes de subir a sua aplica‹o, voc deve verificar se seu servidor de produ‹o est‡ pronto para rod‡-la.
+Verifique o servidor de produÃ§Ã£o
+bÃ¡sico
+Antes de subir a sua aplicaÃ§Ã£o, vocÃª deve verificar se seu servidor de produÃ§Ã£o estÃ¡ pronto para rodÃ¡-la.
 
-Para testar o seu servidor voc deve escolher uma op‹o entre os trs mtodos:
+Para testar o seu servidor vocÃª deve escolher uma opÃ§Ã£o entre os trÃªs mÃ©todos:
 
 1. Manualmente rode `php app/check.php` e veja o que deve ser resolvido;
-2. Acesse `config.php` com o seu navegador, localizado no diret—rio `web`;
-3. Se voc n‹o tem acesso ao seu servidor ainda (voc pretende escolhe-lo), voc pode acessar a [p‡gina de referncia](http://symfony.com/doc/current/reference/requirements.html)
+2. Acesse `config.php` com o seu navegador, localizado no diretÃ³rio `web`;
+3. Se vocÃª nÃ£o tem acesso ao seu servidor ainda (vocÃª pretende escolhe-lo), vocÃª pode acessar a [pÃ¡gina de referÃªncia](http://symfony.com/doc/current/reference/requirements.html)

@@ -1,12 +1,12 @@
-Proteja seus formulários
-segurança
-Symfony2 Form Component automaticamente incorpora e valida [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) tokens para você.
+Proteja seus formul√°rios
+seguran√ßa
+Symfony2 Form Component automaticamente incorpora e valida [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) tokens para voc√™.
 
-Esteja seguro que você personalizou a sua chave segura, ela é utilizada na geração do token seguro, está no arquivo `app/config/parameters.yml`:
+Esteja seguro que voc√™ personalizou a sua chave segura, ela √© utilizada na gera√ß√£o do token seguro, est√° no arquivo `app/config/parameters.yml`:
 
     secret:  por_favor_utilize_uma_chave_real_aqui
 
-Além disso, você pode customizar o token formulário a formulário, o que é ainda melhor. Você pode fazer isso atráves da definição da opção `intention` em seus formulários:
+Al√©m disso, voc√™ pode customizar o token formul√°rio a formul√°rio, o que √© ainda melhor. Voc√™ pode fazer isso atr√°ves da defini√ß√£o da op√ß√£o `intention` em seus formul√°rios:
 
     namespace Acme\DemoBundle\Form;
 
