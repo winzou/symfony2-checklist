@@ -10,7 +10,7 @@ Symfony2 possui um comando que exporta todas as suas rotas em um formato compree
 E então adicione esses regras de rewrite para o arquivo `web/.htaccess`, ou diretamente no diretório de configuração em seu `httpd.conf`, você quem decide.
 
     RewriteEngine On
-    # And here the output of the previous command
+    # E aqui adicione o resultado do comando anterior
 
 E claro, esteja certo que o modulo mod_rewrite está ativo na configuração do Apache.
 
