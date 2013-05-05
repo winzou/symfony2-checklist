@@ -36,4 +36,4 @@ Let's ocnfigure Monolog thanks to `config_prod.yml`:
 
 That's it!
 
-*_See [Symfony2 Monolog documentation](http://symfony.com/doc/master/cookbook/logging/monolog.html)_
+* _See [Symfony2 Monolog documentation](http://symfony.com/doc/master/cookbook/logging/monolog.html)_
