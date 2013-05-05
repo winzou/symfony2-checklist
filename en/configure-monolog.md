@@ -7,7 +7,7 @@ The default configuration is OK for the development environment, but it isn't en
 * Send errors to the website administrator by email (logs of "error" level);
 * Record _all_ authentications, as these are logs of "info" level, that are not logged by default.
 
-Let's ocnfigure Monolog thanks to `config_prod.yml`:
+Let's configure Monolog thanks to `config_prod.yml`:
 
 	monolog:
 		handlers:
