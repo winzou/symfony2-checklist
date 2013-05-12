@@ -10,4 +10,4 @@ Pour utiliser vos propres vues il y a deux solutions possibles :
 2. Soit vous mettes les vues simplement dans le répertoire `app/Resources/TwigBundle/views/Exception/errorXXX.html.twig`. Si vos vues sont spécifiques au projet en cours, cela vous évite de créer un bundle juste pour cela.
 
 * _Voir [Personnaliser ses pages d'erreur sur la documentation Symfony2](http://symfony.com/fr/doc/current/cookbook/controller/error_pages.html)_
-* _Voir [Personnaliser les pages d'erreur sur le cours Symfony2 du siteduzero](http://www.siteduzero.com/informatique/tutoriels/developpez-votre-site-web-avec-le-framework-symfony2/personnaliser-les-pages-d-erreur-1)_
+* _Voir [Personnaliser les pages d'erreur sur le cours Symfony2 du siteduzero](http://www.siteduzero.com/informatique/tutoriels/developpez-votre-site-web-avec-le-framework-symfony2/personnaliser-les-pages-d-erreur)_
