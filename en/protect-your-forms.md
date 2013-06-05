@@ -2,7 +2,7 @@ Protect your forms
 security
 Symfony2 Form Component automatically embeds and validate [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) tokens for you.
 
-Be sure to customize you secret key, which is used for the token generation, in your `app/config/parameters.yml` file:
+Be sure to customize your secret key, which is used for the token generation, in your `app/config/parameters.yml` file:
 
     secret:  please_use_a_real_secret_here
 
