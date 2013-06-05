@@ -51,4 +51,4 @@ If you can't find `\Doctrine\Common\Cache\ApcCache`, then you are not using APC.
 
 * _See [Doctrine Cache documentation](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html)_
 * _See [Symfony2 Doctrine configuration reference](http://symfony.com/doc/current/reference/configuration/doctrine.html)_
-* _See [Using APC cache with Doctrine & Symfony? Check again!](http://gogs.info/2013/05/using-apc-cache-with-doctrine-symfony)_
+* _See [Using APC cache with Doctrine and Symfony? Check again!](http://gogs.info/2013/05/using-apc-cache-with-doctrine-symfony)_
