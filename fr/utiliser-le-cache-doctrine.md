@@ -15,7 +15,7 @@ Mettre en cache ces informations se fait en définissant quelques paramètres da
                 metadata_cache_driver: apc
 
 ### Cache de résultat
-Le résultat de vos requêtes peut être mis en cache, afin de ne pas interroger la base de données encore et encore. Comme c'est une mise en place assez fine, il n'y a pas de paramètrage complet pour toute votre application. Vous pouvez juste définir quel pilote utiliser, comme précédemment :
+Le résultat de vos requêtes peut être mis en cache, afin de ne pas interroger la base de données encore et encore. Comme c'est une mise en place assez fine, il n'y a pas de paramétrage complet pour toute votre application. Vous pouvez juste définir quel pilote utiliser, comme précédemment :
 
     doctrine:
         orm:
