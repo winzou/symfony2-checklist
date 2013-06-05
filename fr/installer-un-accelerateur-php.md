@@ -7,7 +7,7 @@ Pour booster les performances de votre application en production, il est _très 
 ### Sur un serveur dédié
 
 #### Sous Linux
-Pour installer µAPC sur une distribution basée sur Debian, exécutez simplement :
+Pour installer APC sur une distribution basée sur Debian, exécutez simplement :
 
     apt-get install php-apc
 
