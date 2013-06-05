@@ -2,7 +2,7 @@ Install a PHP Accelerator
 performance
 Symfony2 is a flexible and powerful framework... that ends to a quite slow execution time. Of course, the prod environment is much faster than you usual dev environment, but that's not enough.
 
-In order to boost your application in production, it is _very recommanded_ to install a PHP Accelerator like APC.
+In order to boost your application in production, it is _very recommended_ to install a PHP Accelerator like APC.
 
 ### On a dedicated server
 
