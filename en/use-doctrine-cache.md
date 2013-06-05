@@ -1,6 +1,6 @@
 Use Doctrine Cache
 performance
-In production environment, it is _highly recommanded_ to use Doctrine cache. There are two types of cache.
+In production environment, it is _highly recommended_ to use Doctrine cache. There are two types of cache.
 
 ### Query and Metadata Cache
 * The Query Cache aims at caching the transformation of a DQL query to its SQL counterpart. In production, your requests won't change a bit so why not caching them.

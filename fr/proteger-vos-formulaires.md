@@ -1,8 +1,8 @@
 Protéger vos formulaires
-securité
+sécurité
 Le composant Form de Symfony2 génère et valide automatiquement un jeton [CSRF](http://fr.wikipedia.org/wiki/Cross-site_request_forgery) pour vous.
 
-Assurez vous juste de bien personnaliser la clé secrête, qui est utilisé pour la génération des jetons, dans votre fichier `app/config/parameters.yml` :
+Assurez vous juste de bien personnaliser la clé secrète, qui est utilisé pour la génération des jetons, dans votre fichier `app/config/parameters.yml` :
 
     secret:  utilisez_un_vrai_secret_ici
 
