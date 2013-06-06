@@ -11,8 +11,8 @@ Mettre en cache ces informations se fait en définissant quelques paramètres da
     doctrine:
         orm:
             auto_mapping: true
-                query_cache_driver:    apc
-                metadata_cache_driver: apc
+            query_cache_driver:    apc
+            metadata_cache_driver: apc
 
 ### Cache de résultat
 Le résultat de vos requêtes peut être mis en cache, afin de ne pas interroger la base de données encore et encore. Comme c'est une mise en place assez fine, il n'y a pas de paramétrage complet pour toute votre application. Vous pouvez juste définir quel pilote utiliser, comme précédemment :
@@ -20,7 +20,7 @@ Le résultat de vos requêtes peut être mis en cache, afin de ne pas interroger
     doctrine:
         orm:
             auto_mapping: true
-                result_cache_driver: apc
+            result_cache_driver: apc
 
 Mais ensuite, vous devez expliciter comment utiliser ce cache pour toutes vos requêtes sensibles. Cela se fait en définissant un nom et une durée de vie à chacune de vos requêtes cachées. Voir [la documentation Doctrine sur le cache de résultat (en)](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html#result-cache).
 
