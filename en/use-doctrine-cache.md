@@ -11,8 +11,8 @@ Caching these information is done by setting a few parameters in your production
     doctrine:
         orm:
             auto_mapping: true
-                query_cache_driver:    apc
-                metadata_cache_driver: apc
+            query_cache_driver:    apc
+            metadata_cache_driver: apc
 
 ### Result Cache
 The result of your queries can be cached in order not to query the database again and again. As this is a finer tuning, you can't parameter it application-wide. You can only set the driver as previously:
@@ -20,7 +20,7 @@ The result of your queries can be cached in order not to query the database agai
     doctrine:
         orm:
             auto_mapping: true
-                result_cache_driver: apc
+            result_cache_driver: apc
 
 But then you have to explicitly use or not use this cache in all your majors queries. This is done by setting the name and lifetime of each query cache. See [Doctrine Result Cache documentation](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html#result-cache).
 
