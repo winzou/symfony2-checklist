@@ -11,8 +11,8 @@ O cache dessas informações é feito definindo alguns paramêtros no arquivo de
     doctrine:
         orm:
             auto_mapping: true
-                query_cache_driver:    apc
-                metadata_cache_driver: apc
+            query_cache_driver:    apc
+            metadata_cache_driver: apc
 
 ### Result Cache
 O resultado das suas queries podem ser armazenadas em cache para que a consulta não seja executada no banco de dados várias vezes. Como isso é um ajuste mais delicado, você não consegue apenas alterar um paramêtro em sua aplicação. Você apenas precisa setar o driver como anteriormente:
@@ -20,7 +20,7 @@ O resultado das suas queries podem ser armazenadas em cache para que a consulta 
     doctrine:
         orm:
             auto_mapping: true
-                result_cache_driver: apc
+            result_cache_driver: apc
 
 Mas você precisa tornar explicito o uso ou não desse cache na maioria de suas queries. Isto é feito setando o nome e o tempo de vida de cada querie. Veja [Doctrine Result Cache documentation](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html#result-cache).
 
