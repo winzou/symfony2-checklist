@@ -1,3 +1,5 @@
+Utiliser un favicon personnalisé
+basic
 Utiliser un favicons personnalisé et non celui de base fournit par Symfony2. Vous ne voulez pas que le logo Symfony apparaissent sur le navigateur de vos visiteurs. C'est pourquoi vous devez remplacer l'icône par défaut par le vôtre avant la mise en production.
 
 Vous avez juste à remplacer le fichier : `web/favicon.ico`.
