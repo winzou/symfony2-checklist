@@ -9,30 +9,30 @@ Výchozí konfigurace je dobrá pro vývojové prostředí, ale nestačí pro pr
 
 Konfigurace Monologu v souboru `config_prod.yml`:
 
-	monolog:
-		handlers:
-			main:
-				type:               fingers_crossed
-				action_level:       error
-				handler:            grouped
-			grouped:
-				type:               group
-				members:            [streamed, swift]
-			streamed:
-				type:               stream
-				path:               "%kernel.logs_dir%/%kernel.environment%.log"
-				level:              debug
-			swift:
-				type:               swift_mailer
-				from_email:         FQN@foo.com
-				to_email:           webmaster@company.com
-				subject:            "OOps"
-				level:              debug
-			login:
-				type:               stream
-				path:               "%kernel.logs_dir%/auth.log"
-				level:              info
-				channels:           security
+    monolog:
+        handlers:
+            main:
+                type:               fingers_crossed
+                action_level:       error
+                handler:            grouped
+            grouped:
+                type:               group
+                members:            [streamed, swift]
+            streamed:
+                type:               stream
+                path:               "%kernel.logs_dir%/%kernel.environment%.log"
+                level:              debug
+            swift:
+                type:               swift_mailer
+                from_email:         FQN@foo.com
+                to_email:           webmaster@company.com
+                subject:            "OOps"
+                level:              debug
+            login:
+                type:               stream
+                path:               "%kernel.logs_dir%/auth.log"
+                level:              info
+                channels:           security
 
 Hotovo"
 
