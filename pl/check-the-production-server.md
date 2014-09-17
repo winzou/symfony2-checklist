@@ -1,5 +1,5 @@
 Sprawdź serwer	
-basis
+podstawowe
 Przed uruchomieniem aplikacji, należy sprawdzić czy serwer jest przygotowany do uruchomienia twojej aplikacji.
 
 Przetestować serwer można na jeden ze 3 sposobów:
