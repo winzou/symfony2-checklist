@@ -1,9 +1,9 @@
-Check the production server
+Sprawdź serwer	
 basis
-Before deploying your application, you have to test that your production server is ready to run it.
+Przed uruchomieniem aplikacji, należy sprawdzić czy serwer jest przygotowany do uruchomienia twojej aplikacji.
 
-To test your server you have the choice between three methods:
+Przetestować serwer można na jeden ze 3 sposobów:
 
-1. Manually run `php app/check.php` and see what to resolve;
-2. Access the `config.php` with your browser, located in the `web` directory;
-3. If you don't have access to your server yet (you're planning to buy it), you can still go to the [documentation reference page](http://symfony.com/doc/current/reference/requirements.html)
+1. Ręcznie  uruchom polecenie  `php app/check.php` i zobacz czy są problemy które trzeba rozwiązać;
+2. Wywołaj w przeglądarce internetowej plik `config.php`znajdujący się w katalogu  `web` .
+3. Jezeli nie masz jeszcze dostępu do serwera (np. dopiero planujesz go kupić), zawsze możesz sprawdzić wymagania w oficjalnej dokumentacji  [documentation reference page](http://symfony.com/doc/current/reference/requirements.html)
