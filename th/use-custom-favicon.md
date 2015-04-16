@@ -6,5 +6,5 @@
 
 สำหรับสร้าง favicon ใหม่คุณสามารถใช้เครื่องมือเหล่านี้ช่วย:
 
-* สร้างไอค่อนออนไลน์ [favicon.cc](http://www.favicon.cc) in order to generate `.ico`;
+* เครื่องมือสร้างไอค่อนออนไลน์ [favicon.cc](http://www.favicon.cc) สำหรับสร้างไฟล์ `.ico`
 * หรือจะใช้ไฟล์ PNG เป็นไอค่อนก็ได้ แต่นั่นแปลว่าคุณต้องแก้ไขแท็ก `link` ใน HTML เป็น: `<link rel="icon" type="image/png" href="yourFavIcon.png">`
