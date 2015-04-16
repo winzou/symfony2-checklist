@@ -1,6 +1,5 @@
 ติดตั้ง PHP Accelerator
 ประสิทธิภาพ
-Symfony2 is a flexible and powerful framework... that ends to a quite slow execution time. Of course, the prod environment is much faster than you usual dev environment, but that's not enough.
 Symfony2 มีความยืดหยุ่นและความสามารถสูงมาก แต่ทำท่าว่าจะตกมาตายเพราะเรื่องความเร็ว .... แต่เดี๋ยวก่อน! ทีวีไดเร็ค... เอ้ย คุณต้องไม่เชื่อแน่ๆ ว่าในสภาพแวดล้อมที่ใช้งานจริง (prod environment) มันเร็วมากกว่าขั้นตอนการพัฒนาเยอะมาก แต่นั่นก็ยังไม่ดีพอ
 
 ในขั้นตอนการใช้งานจริงของโปรเจคคุณ _ขอแนะนำอย่างยิ่ง_ ให้คุณติดตั้ง PHP Accelerator เช่น APC ด้วย
