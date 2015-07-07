@@ -11,6 +11,6 @@ Commande composer :
 
     php composer.phar dump-autoload --optimize
 
-Bien sûr, cette options rend la commande un peu plus longure. C'est pourquoi par défaut elle est désactivée.
+Bien sûr, cette option rend la commande un peu plus longue. C'est pourquoi par défaut elle est désactivée.
 
 * _Voir [Composer dump-autoload documentation](http://getcomposer.org/doc/03-cli.md#dump-autoload)_
