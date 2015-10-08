@@ -25,7 +25,6 @@ Después de la instalación, hay que activar la extensión. Esto se hace añadie
     apc.enabled=1
 
 ### En un hosting compartido
-If you are on a shared hosting, you must not have an SSH access. In that case, the best option is to contact the administrator. Say him it's better for its servers to have a PHP Accelerator installed.
 
   Si estás utilizando un hosting compartido, no debes tener acceso por SSH. En ese caso, la mejor opción es contactar con el administrador. Dile que es mejor para sus servidores que tenga instalado un acelerador PHP.
 

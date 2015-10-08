@@ -1,6 +1,6 @@
 Utilizar un Favicon personalizado
 base
-No quieres que el logo de Symfony aparezca en el navegador de tus vistantes. Ése es el motivo por el que debes remplazar el favicon que viene por defecto por el tuyo propio antes del despliegue.
+Seguro que no quieres que el logo de Symfony aparezca en el navegador de tus vistantes. Ése es el motivo por el que debes remplazar el favicon que viene por defecto por el tuyo propio antes del despliegue.
 
 Simplemente sustituye el archivo `web/favicon.ico`.
 

@@ -1,6 +1,6 @@
 Configurar Monolog
 seguridad
-El componente que genera los logs de tu aplicación en esencial gestionar tu plataforma web. Symfony implementa el componente Monolog dedicado a esta tarea.
+El componente que genera los logs de tu aplicación en esencial para gestionar tu plataforma web. Symfony implementa el componente Monolog dedicado a esta tarea.
 
 La configuración por defecto está bien para el entorno de desarrollo, pero no es suficiente para el de producción.
 

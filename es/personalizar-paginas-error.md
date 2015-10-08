@@ -1,8 +1,8 @@
 Personalizar páginas de error
 base
-Si estás habituado a las páginas de error del entorno `dev`, es de esperar que no será el caso de tus futuros visitantes en tu sitio web de producción. Por tanto, debes personalizar las diferentes páginas de error, con la intención de integrarlas en to propio diseño.
+Si estás habituado a las páginas de error del entorno `dev`, es de esperar que no será el caso de tus futuros visitantes en tu sitio web de producción. Por tanto, debes personalizar las diferentes páginas de error, con la intención de integrarlas en tu propio diseño.
 
-Afortunadamente, personalizar páginas de rror es muy fácil. Las vistas están localizadas en el bundle `TwigBundle`, que te da la clave para sobresccribirlas con las tuyas. Las vistas que tienes que crear son `Exception/errorXXX.html.twig`, donde `XXX` es el número del error encontrado. Es altamente recomendable personalizar al menos los errores 404  y 500.
+Afortunadamente, personalizar páginas de error es muy fácil. Las vistas están localizadas en el bundle `TwigBundle`, que te da la clave para sobresccribirlas con las tuyas. Las vistas que tienes que crear son `Exception/errorXXX.html.twig`, donde `XXX` es el número del error encontrado. Es altamente recomendable personalizar al menos los errores 404  y 500.
 
 Para utilizar tus propias vistas, hay dos posibles soluciones:
 

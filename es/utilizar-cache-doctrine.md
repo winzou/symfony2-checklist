@@ -29,9 +29,9 @@ Como se trata de una puesta a punto más fina, no se puede parametrizar toda la 
 
 Pero de esta forma, tienes que utilizar de manera explícita o no esta cache en todas las consultas mayores. Esto se hace configurando el nombre y tiempo de vida de cada consulta de cache. Ver [Documentación del resultado de la Cache de Doctrine ](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html#result-cache).
 
-### Asegurarse de que Doctrine realmente está utilizando la cache con APC
+### Asegurarse de que Doctrine realmente está utilizando la cache APC
 
-Ya tienes configurado APC como conductor de la cache de Doctrine, genial. Pero el problema es que el Contenedor de Inyección de Dependencias se genera a través de la Interfaz de Línea de Comandos, cuando la cache se construye a partir de ahí. Y si no tienes `apc.enable_cli = 1` en tu `php.ini`, el Contenedor de Inyección de Dependencias utilizará `FileCacheReader` en su lugar. Eso no es lo que queremos.
+Ya tienes configurado APC como conductor de la cache de Doctrine, genial. Pero el problema es que el Contenedor de Inyección de Dependencias se genera a través de la Interfaz de Línea de Comandos, cuando la cache, se va a construir a partir de ahí. Y si no tienes `apc.enable_cli = 1` en tu `php.ini`, el Contenedor de Inyección de Dependencias utilizará `FileCacheReader` en su lugar. Eso no es lo que queremos.
 
 Para comprobar que realmente estás utilizando APC cache, tienes que mirar en tu `app/cache/prod/appProdProjectContainer.php`. Deberías ver lo siguiente:
 
@@ -56,4 +56,4 @@ Si no puedes encontrar `\Doctrine\Common\Cache\ApcCache`, entonces es que no est
 
 * _Ver [Documentación de Doctrine Cache](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/caching.html)_
 * _Ver [Symfony2 Doctrine configuration reference](http://symfony.com/doc/current/reference/configuration/doctrine.html)_
-* _Ver [Utilizando APC cache con Doctrine y Symfony? Check again!](http://gogs.info/2013/05/using-apc-cache-with-doctrine-symfony)_
+* _Ver [Estás utilizando APC cache con Doctrine y Symfony? Compruébalo otra vez](http://gogs.info/2013/05/using-apc-cache-with-doctrine-symfony)_

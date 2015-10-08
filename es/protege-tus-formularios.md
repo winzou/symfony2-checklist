@@ -1,6 +1,5 @@
 Protege tus formularios
 seguridad
-
 El componente Form de Symfony2 incrusta y valida [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) tokens para ti.
 Asegúrate de personalizar tu *secret key*, la cual es utilizada por el generador de token, en tu archivo `app/config/parameters.yml`:
 
