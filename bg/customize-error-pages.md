@@ -1,12 +1,13 @@
-Customize error pages
-basis
-If you are used to the error pages of the "dev" environment, it is hopefully not the case of your future visitors on your production website. So, you must customize the different error pages, in order to integrate them with your own layout. 
+Персонализиране на страниците за грешки
+основно
 
-Hopefully, customizing error pages is really easy. Their views are located in the `TwigBundle` bundle, that gives you the key to override them by yours. The views you have to create are: `Exception/errorXXX.html.twig`, where `XXX` is the number of the encountered error. It is highly recommended to customize at least errors 404 and 500.
+Ако вече сте свикнали на страниците за грешки в "dev" средата, надяваме се не желаете това да виждат и бъдещите потребители. За целта трябва да промените различните страници за грешки, за да бъдат идентични с изгледа на сайта.
 
-To use your own views, there are two possible solutions:
+За щастие промяната наистина е лесна. Техните view-та са разположени в `TwigBundle` бъндъла, което ви дава насока как да ги припокриете с вашите. View-тата, които трябва да създадете са: `Exception/errorXXX.html.twig`, къдет `XXX` е номерът на грешката. Силно препоръчваме да промените поне грешки 404 и 500.
 
-1. You can create a new bundle, that extends `TwigBundle`, and put your views in the directory `Resources/views/Exception/errorXXX.html.twig`. That enable you to reuse them in different projects as it is a reusable bundle;
-2. You can also simply put your views in the directory `app/Resources/TwigBundle/views/Exception/errorXXX.html.twig`. If your views are specific to the current project, it avoid you to create a new bundle just for that.
+За да използвате вашите view-та има две възможни решения:
 
-* _See [Customize error pages on Symfony documentation](http://symfony.com/doc/master/cookbook/controller/error_pages.html)_
+1. Можете да създадете нов бъндъл, който разширява `TwigBundle` и да сложите в вашите view-та в папката `Resources/views/Exception/errorXXX.html.twig`. Това ще ви позволи да ги използвате и в други проекти, понеже това е reusable бъндъл;
+2. Ако view-тата ви са специфични за конкретния проект, можете просто да ги сложите в папката `app/Resources/TwigBundle/views/Exception/errorXXX.html.twig`, за да избегнете създаването на нов бъндъл специално за целта.
+
+* _Вижте [Персонализиране на страниците за грешка в документацията на Symfony](http://symfony.com/doc/master/cookbook/controller/error_pages.html)_
