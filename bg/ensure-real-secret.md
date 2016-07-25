@@ -1,7 +1,7 @@
-Ensure real secret
-security
-Ensure that your production server is using a customized secret key. Check it in your `app/config/parameters.yml` file:
+Гарантирайте истинска тайна
+сигурност
+Уверете се, че вашият production сървър има персонален таен ключ. Проверете го в `app/config/parameters.yml` файла:
 
     secret:  please_use_a_real_secret_here
 
-The default secret is *not* truly secret, you *must* change it by a random one.
+Тайният ключ по подразбиране *не* е напълно таен, така че *трябва* да го смените с някакъв генериран по случаен начин.
