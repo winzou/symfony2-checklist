@@ -1,12 +1,12 @@
-Protect your forms
-security
-Symfony2 Form Component automatically embeds and validate [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) tokens for you.
+Защитете формите си
+Сигурност
+Компонентът за форми на Symfony2 автоматично добавя и валидира [CSRF](http://en.wikipedia.org/wiki/Cross-site_request_forgery) токени.
 
-Be sure to customize your secret key, which is used for the token generation, in your `app/config/parameters.yml` file:
+Уверете се, че сте персонализирали тайния си ключ, който се използва в токен генератора, във вашия  `app/config/parameters.yml` файл:
 
     secret:  please_use_a_real_secret_here
 
-Moreover, you could customize the token on a form-by-form basis, which is even better. You can do that by defining an `intention` option in your forms:
+Освен това, можете да персонализирате токените форма по форма, което е още по-добре. Това става като дефинирате опцията `intention` във формите си:
 
     namespace Acme\DemoBundle\Form;
 	
@@ -27,5 +27,5 @@ Moreover, you could customize the token on a form-by-form basis, which is even b
         // ...
     }
 
-* _See [Symfony2 Form CSRF protection documentation](http://symfony.com/doc/current/book/forms.html#csrf-protection)_
-* _See [CSRF on wikipedia](http://en.wikipedia.org/wiki/Cross-site_request_forgery)_
+* _Виж [Документация за Symfony2 Form CSRF защита](http://symfony.com/doc/current/book/forms.html#csrf-protection)_
+* _Виж [CSRF на уикипедия](http://en.wikipedia.org/wiki/Cross-site_request_forgery)_
