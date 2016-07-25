@@ -1,10 +1,10 @@
-Use Custom Favicon
-basis
-You don't want the Symfony logo to appear in your visitors' browser. That's why you must replace the default favicon with your own before deployment.
+Използвайте собствена икона
+основно
+Вие не искате логото на Symfony да се появява в браузъра на посетителите. Затова, преди да стартирате официално, трябва да замените иконата иконата по подразбиране с ваша.
 
-Just replace the file `web/favicon.ico`.
+Просто подменете файла `web/favicon.ico`.
 
-To make favicons, you can:
+За да направите икона, можете да:
 
-* Use online tools like [favicon.cc](http://www.favicon.cc) in order to generate `.ico` files;
-* Use a PNG icon. In that case you must define a `link` in your HTML: `<link rel="icon" type="image/png" href="yourFavIcon.png">`
+* Използвате онлайн инструменти като [favicon.cc](http://www.favicon.cc), който ще генерира `.ico` файла;
+* Използвате PNG икона. В този случай в html файла трябва да дефинирате `връзка`: `<link rel="icon" type="image/png" href="yourFavIcon.png">`
