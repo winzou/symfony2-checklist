@@ -1,9 +1,9 @@
-Check the production server
-basis
-Before deploying your application, you have to test that your production server is ready to run it.
+Проверете production сървъра
+основно
+Преди да започнете вашето приложение, първо трябва да проверите дали вашият production сървър изпълнява изискванията му.
 
-To test your server you have the choice between three methods:
+Проверката може да бъде направена по един от следните три начина:
 
-1. Manually run `php app/check.php` and see what to resolve;
-2. Access the `config.php` with your browser, located in the `web` directory;
-3. If you don't have access to your server yet (you're planning to buy it), you can still go to the [documentation reference page](http://symfony.com/doc/current/reference/requirements.html)
+1. Ръчно изпълнете `php app/check.php` и вижте какво трябва да се оправи;
+2. Заредете в браузъра `config.php`, разположен в папка `web`;
+3. Ако все още нямате достъп до вашия сървър (планирате да го закупите), можете да погледнете  [страницата в документацията](http://symfony.com/doc/current/reference/requirements.html)
