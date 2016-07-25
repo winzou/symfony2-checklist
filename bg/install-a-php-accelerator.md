@@ -1,30 +1,30 @@
-Install a PHP Accelerator
-performance
-Symfony2 is a flexible and powerful framework... that ends to a quite slow execution time. Of course, the prod environment is much faster than you usual dev environment, but that's not enough.
+Инсталиране на PHP Акселератор
+скорост
+Symfony2 е гъвкав и мощен фреймуорк ... което води до дълго време за изпълнение. Разбира се, prod средата е много по-обърза от обичайната dev, но това не е достатъчно.
 
-In order to boost your application in production, it is _very recommended_ to install a PHP Accelerator like APC.
+За да ускорите вашето приложение в production режим, _силно се препоръчва_ да инсталирате PHP Акселератор, например APC.
 
-### On a dedicated server
+### На нает сървър
 
-#### On Linux
-To install APC on a debian-like linux distribution, simply execute:  
+#### На линукс
+За да инсталирате APC на debian-подобна дистрибуция, просто изпълнете:
 
     apt-get install php-apc
 
-Adapt the command to your distribution.
+Подберете командата според вашата дистрибуция.
 
-#### On Windows
-Uncomment the concerned line in your `php.ini`:
+#### На Windows
+Махнете коментара на съответния ред в `php.ini`:
 
     extension=php_apc.dll
 
-#### In all cases
-After the installation, you have to activate the extension. This is done by adding this line at the end of your `php.ini`:
+#### Във всички случаи
+След инсталацията, разширението трябва да бъде активирано. Това става, като добавите в края на вашия `php.ini`:
 
     [APC]
     apc.enabled=1
 
-### On a shared hosting
-If you are on a shared hosting, you must not have an SSH access. In that case, the best option is to contact the administrator. Say him it's better for its servers to have a PHP Accelerator installed.
+### На споделен хостинг
+Ако сте на споделен хостинг, обикновено нямате достъп по SSH. В този случай най-добре е да се свържете с администратора. Кажете му, че е в тяхна полза да имат инсталиран PHP Акселератор.
 
-* _See [APC on the PHP doc](http://php.net/manual/en/book.apc.php)_
+* _Виж [APC в документацията на PHP](http://php.net/manual/en/book.apc.php)_
