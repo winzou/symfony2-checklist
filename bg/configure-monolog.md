@@ -1,13 +1,13 @@
-Configure Monolog
-security
-The component generating the logs of your application is essential for managing your web platform. Symfony2 ships Monolog component dedicated to this task.
+Конфигуриране на Monolog
+сигурност
+Компонентът, генериращ логове на приложението ви, е от важно значение за управление на уеб платформата ви. Symfony2 работи с Monolog, който е посветен на тази задача.
 
-The default configuration is OK for the development environment, but it isn't enough for production. The changes to do deal with two aims:
+Конфигурацията по подразбиране е добра за средата за разработване, но не достатъчно за продуктовата среда. Промените целят две неща:
 
-* Send errors to the website administrator by email (logs of "error" level);
-* Record _all_ authentications, as these are logs of "info" level, that are not logged by default.
+* Изпращане на грешките администратора на сайта по имейл (логове с ниво "грешка");
+* Дневник с _всички_ автентикации, които са с ниво "info", и не се логват по подразбиране.
 
-Let's configure Monolog thanks to `config_prod.yml`:
+Да конфигурираме Monolog във файла  `config_prod.yml`:
 
 	monolog:
 		handlers:
@@ -34,6 +34,6 @@ Let's configure Monolog thanks to `config_prod.yml`:
 				level:              info
 				channels:           security
 
-That's it!
+Това е!
 
-* _See [Symfony2 Monolog documentation](http://symfony.com/doc/master/cookbook/logging/monolog.html)_
+* _Виж [Документация на Symfony2 Monolog](http://symfony.com/doc/master/cookbook/logging/monolog.html)_
