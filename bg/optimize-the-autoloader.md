@@ -1,13 +1,13 @@
-Optimize the Autoloader
-performance
-By default, Composer dumps an autoloader that isn't fully optimized. Indeed, when you have many classes, the autoloader can take up a substantial time..
+Оптимизиране на Autoloader
+скорост
+По подразбиране Composer генерира autoloader, който не е напълно оптимизиран. Наистина, ако имате много класове, autoloader-ът може да отнеме съществено време.
 
-In production environment, you want the autoloader to be fast. Composer can dump an optimized autoloader that converts PSR-0 packages into classmap ones, which improves performance.
+В production среда, autoloader трябва да бъде бърз. Composer може да генерира оптимизиран файл, който конвертира PSR-0 пакетите в такива, classmap, което подобрява изпълнението.
 
-To use the optimized autoloader, just add the `--optimize` option to the `dump-autoload` Composer command:
+За да използвате оптимизирания autoloader, към Composer командата просто добавете опцията `--optimize` с `dump-autoload`:
 
     php composer.phar dump-autoload --optimize
 
-Of course, this option makes the command a bit longer. That's why it isn't done by default.
+Разбира се, удължава размера на командата. Затова не е направена по подразбиране.
 
-* _See [Composer dump-autoload documentation](http://getcomposer.org/doc/03-cli.md#dump-autoload)_
+* _Виж [Composer dump-autoload документацията](http://getcomposer.org/doc/03-cli.md#dump-autoload)_
