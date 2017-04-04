@@ -16,13 +16,13 @@ De plus, vous pouvez rendre unique le jeton pour chaque formulaire, ce qui est e
     {
         // ...
 
-        public function setDefaultOptions(OptionsResolverInterface $resolver)
-        {
-            $resolver->setDefaults(array(
-                // Ici, une clé unique par formulaire pour la génération du jeton CSRF
-                'intention' => 'task_form',
-            ));
-        }
+       public function configureOptions(OptionsResolver $resolver)
+    {
+        $resolver->setDefaults(array(
+	     // Ici, une clé unique par formulaire pour la génération du jeton CSRF
+            'intention' => 'task_form',
+        ));
+    }
 
         // ...
     }
